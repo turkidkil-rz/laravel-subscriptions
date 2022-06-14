@@ -37,11 +37,7 @@
         }
     ],
     "require": {
-        "php": "^8.0.0",
-        "illuminate/console": "^9.0.0 || ^10.0.0",
-        "illuminate/database": "^9.0.0 || ^10.0.0",
-        "illuminate/support": "^9.0.0 || ^10.0.0",
-        "rinvex/laravel-support": "^6.1",
+        "mehedi/laravel-support": "dev-master",
         "spatie/eloquent-sortable": "^4.0.0",
         "spatie/laravel-sluggable": "^3.4",
         "spatie/laravel-translatable": "^6.0"
@@ -61,6 +57,12 @@
             "Rinvex\\Subscriptions\\Tests\\": "tests"
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/MehediDracula/laravel-support.git"
+        }
+    ],
     "scripts": {
         "test": "vendor/bin/phpunit"
     },
