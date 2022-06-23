@@ -20,8 +20,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  *
  * @property int                 $id
  * @property string              $slug
- * @property array               $name
- * @property array               $description
+ * @property string              $name
+ * @property string              $description
  * @property bool                $is_active
  * @property float               $price
  * @property float               $signup_fee
